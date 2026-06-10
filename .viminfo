@@ -10,9 +10,16 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1780936753,,"wq"
+|2,0,1781093655,,"wq"
+:qa
+|2,0,1781091159,,"qa"
+:wq!
+|2,0,1781091135,,"wq!"
 
 # Search String History (newest to oldest):
 
@@ -23,240 +30,278 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	CHAR	0
+""0	LINE	0
+	
+|3,1,0,1,1,0,1781091128,""
+"1	CHAR	0
 	
 	
-|3,1,1,0,2,0,1780921556,"",""
+|3,0,1,0,2,0,1780921556,"",""
 "-	CHAR	0
 	
 	
 |3,0,36,0,2,0,1780921556,"",""
 
 # File marks:
-'0  36  81  ~/.github/workflows/cicd.yml
-|4,48,36,81,1780936753,"~/.github/workflows/cicd.yml"
-'1  22  46  ~/deployment.yml
-|4,49,22,46,1780924530,"~/deployment.yml"
-'2  7  25  ~/dockerfile
-|4,50,7,25,1780923169,"~/dockerfile"
-'3  7  25  ~/dockerfile
-|4,51,7,25,1780921914,"~/dockerfile"
-'4  1  0  ~/hello.py
-|4,52,1,0,1780921741,"~/hello.py"
-'5  1  5  ~/hello.py
-|4,53,1,5,1780921703,"~/hello.py"
-'6  5  0  ~/hello.py
-|4,54,5,0,1780921580,"~/hello.py"
-'7  3  0  ~/hello.py
-|4,55,3,0,1780921580,"~/hello.py"
-'8  5  0  ~/hello.py
-|4,56,5,0,1780921580,"~/hello.py"
-'9  3  0  ~/hello.py
-|4,57,3,0,1780921580,"~/hello.py"
+'0  21  32  ~/k8deployment.yaml
+|4,48,21,32,1781093655,"~/k8deployment.yaml"
+'1  7  23  ~/dockerfile
+|4,49,7,23,1781091301,"~/dockerfile"
+'2  7  0  /home
+|4,50,7,0,1781091159,"/home"
+'3  1  19  ~/app.py
+|4,51,1,19,1781090780,"~/app.py"
+'4  36  81  ~/.github/workflows/cicd.yml
+|4,52,36,81,1780936753,"~/.github/workflows/cicd.yml"
+'5  22  46  ~/deployment.yml
+|4,53,22,46,1780924530,"~/deployment.yml"
+'6  13  25  ~/dockerfile
+|4,54,13,25,1780923169,"~/dockerfile"
+'7  7  25  ~/dockerfile
+|4,55,7,25,1780923169,"~/dockerfile"
+'8  13  25  ~/dockerfile
+|4,56,13,25,1780921914,"~/dockerfile"
+'9  7  25  ~/dockerfile
+|4,57,7,25,1780921914,"~/dockerfile"
 
 # Jumplist (newest first):
+-'  21  32  ~/k8deployment.yaml
+|4,39,21,32,1781093655,"~/k8deployment.yaml"
+-'  1  0  ~/k8deployment.yaml
+|4,39,1,0,1781093632,"~/k8deployment.yaml"
+-'  7  23  ~/dockerfile
+|4,39,7,23,1781091301,"~/dockerfile"
+-'  7  23  ~/dockerfile
+|4,39,7,23,1781091301,"~/dockerfile"
+-'  1  0  ~/dockerfile
+|4,39,1,0,1781091285,"~/dockerfile"
+-'  1  0  ~/dockerfile
+|4,39,1,0,1781091285,"~/dockerfile"
+-'  7  0  /home
+|4,39,7,0,1781091159,"/home"
+-'  7  0  /home
+|4,39,7,0,1781091159,"/home"
+-'  7  0  /home
+|4,39,7,0,1781091159,"/home"
+-'  7  0  /home
+|4,39,7,0,1781091159,"/home"
+-'  8  0  ~
+|4,39,8,0,1781091128,"~"
+-'  30  0  ~
+|4,39,30,0,1781091128,"~"
+-'  17  0  /home
+|4,39,17,0,1781091128,"/home"
+-'  8  0  ~
+|4,39,8,0,1781091128,"~"
+-'  30  0  ~
+|4,39,30,0,1781091128,"~"
+-'  17  0  /home
+|4,39,17,0,1781091128,"/home"
+-'  8  0  ~
+|4,39,8,0,1781091128,"~"
+-'  30  0  ~
+|4,39,30,0,1781091128,"~"
+-'  17  0  /home
+|4,39,17,0,1781091128,"/home"
+-'  8  0  ~
+|4,39,8,0,1781091128,"~"
+-'  30  0  ~
+|4,39,30,0,1781091128,"~"
+-'  17  0  /home
+|4,39,17,0,1781091128,"/home"
+-'  37  0  ~
+|4,39,37,0,1781091127,"~"
+-'  37  0  ~
+|4,39,37,0,1781091127,"~"
+-'  37  0  ~
+|4,39,37,0,1781091127,"~"
+-'  37  0  ~
+|4,39,37,0,1781091127,"~"
+-'  8  0  ~/Dockerfile
+|4,39,8,0,1781091121,"~/Dockerfile"
+-'  8  0  ~/Dockerfile
+|4,39,8,0,1781091121,"~/Dockerfile"
+-'  8  0  ~/Dockerfile
+|4,39,8,0,1781091121,"~/Dockerfile"
+-'  8  0  ~/Dockerfile
+|4,39,8,0,1781091121,"~/Dockerfile"
+-'  1  19  ~/app.py
+|4,39,1,19,1781090780,"~/app.py"
+-'  1  19  ~/app.py
+|4,39,1,19,1781090780,"~/app.py"
+-'  1  19  ~/app.py
+|4,39,1,19,1781090780,"~/app.py"
+-'  1  19  ~/app.py
+|4,39,1,19,1781090780,"~/app.py"
+-'  1  19  ~/app.py
+|4,39,1,19,1781090780,"~/app.py"
+-'  1  19  ~/app.py
+|4,39,1,19,1781090780,"~/app.py"
+-'  1  19  ~/app.py
+|4,39,1,19,1781090780,"~/app.py"
+-'  1  19  ~/app.py
+|4,39,1,19,1781090780,"~/app.py"
 -'  36  81  ~/.github/workflows/cicd.yml
 |4,39,36,81,1780936753,"~/.github/workflows/cicd.yml"
+-'  36  81  ~/.github/workflows/cicd.yml
+|4,39,36,81,1780936753,"~/.github/workflows/cicd.yml"
+-'  36  81  ~/.github/workflows/cicd.yml
+|4,39,36,81,1780936753,"~/.github/workflows/cicd.yml"
+-'  36  81  ~/.github/workflows/cicd.yml
+|4,39,36,81,1780936753,"~/.github/workflows/cicd.yml"
+-'  36  81  ~/.github/workflows/cicd.yml
+|4,39,36,81,1780936753,"~/.github/workflows/cicd.yml"
+-'  36  81  ~/.github/workflows/cicd.yml
+|4,39,36,81,1780936753,"~/.github/workflows/cicd.yml"
+-'  36  81  ~/.github/workflows/cicd.yml
+|4,39,36,81,1780936753,"~/.github/workflows/cicd.yml"
+-'  36  81  ~/.github/workflows/cicd.yml
+|4,39,36,81,1780936753,"~/.github/workflows/cicd.yml"
+-'  36  81  ~/.github/workflows/cicd.yml
+|4,39,36,81,1780936753,"~/.github/workflows/cicd.yml"
+-'  36  81  ~/.github/workflows/cicd.yml
+|4,39,36,81,1780936753,"~/.github/workflows/cicd.yml"
+-'  36  81  ~/.github/workflows/cicd.yml
+|4,39,36,81,1780936753,"~/.github/workflows/cicd.yml"
+-'  36  81  ~/.github/workflows/cicd.yml
+|4,39,36,81,1780936753,"~/.github/workflows/cicd.yml"
+-'  36  81  ~/.github/workflows/cicd.yml
+|4,39,36,81,1780936753,"~/.github/workflows/cicd.yml"
+-'  36  81  ~/.github/workflows/cicd.yml
+|4,39,36,81,1780936753,"~/.github/workflows/cicd.yml"
+-'  36  81  ~/.github/workflows/cicd.yml
+|4,39,36,81,1780936753,"~/.github/workflows/cicd.yml"
+-'  36  81  ~/.github/workflows/cicd.yml
+|4,39,36,81,1780936753,"~/.github/workflows/cicd.yml"
+-'  1  0  ~/.github/workflows/cicd.yml
+|4,39,1,0,1780936710,"~/.github/workflows/cicd.yml"
+-'  1  0  ~/.github/workflows/cicd.yml
+|4,39,1,0,1780936710,"~/.github/workflows/cicd.yml"
+-'  1  0  ~/.github/workflows/cicd.yml
+|4,39,1,0,1780936710,"~/.github/workflows/cicd.yml"
+-'  1  0  ~/.github/workflows/cicd.yml
+|4,39,1,0,1780936710,"~/.github/workflows/cicd.yml"
+-'  1  0  ~/.github/workflows/cicd.yml
+|4,39,1,0,1780936710,"~/.github/workflows/cicd.yml"
+-'  1  0  ~/.github/workflows/cicd.yml
+|4,39,1,0,1780936710,"~/.github/workflows/cicd.yml"
+-'  1  0  ~/.github/workflows/cicd.yml
+|4,39,1,0,1780936710,"~/.github/workflows/cicd.yml"
+-'  1  0  ~/.github/workflows/cicd.yml
+|4,39,1,0,1780936710,"~/.github/workflows/cicd.yml"
+-'  1  0  ~/.github/workflows/cicd.yml
+|4,39,1,0,1780936710,"~/.github/workflows/cicd.yml"
+-'  1  0  ~/.github/workflows/cicd.yml
+|4,39,1,0,1780936710,"~/.github/workflows/cicd.yml"
+-'  1  0  ~/.github/workflows/cicd.yml
+|4,39,1,0,1780936710,"~/.github/workflows/cicd.yml"
+-'  1  0  ~/.github/workflows/cicd.yml
+|4,39,1,0,1780936710,"~/.github/workflows/cicd.yml"
+-'  1  0  ~/.github/workflows/cicd.yml
+|4,39,1,0,1780936710,"~/.github/workflows/cicd.yml"
+-'  1  0  ~/.github/workflows/cicd.yml
+|4,39,1,0,1780936710,"~/.github/workflows/cicd.yml"
+-'  1  0  ~/.github/workflows/cicd.yml
+|4,39,1,0,1780936710,"~/.github/workflows/cicd.yml"
 -'  1  0  ~/.github/workflows/cicd.yml
 |4,39,1,0,1780936710,"~/.github/workflows/cicd.yml"
 -'  22  46  ~/deployment.yml
 |4,39,22,46,1780924530,"~/deployment.yml"
 -'  22  46  ~/deployment.yml
 |4,39,22,46,1780924530,"~/deployment.yml"
--'  1  0  ~/deployment.yml
-|4,39,1,0,1780924508,"~/deployment.yml"
--'  1  0  ~/deployment.yml
-|4,39,1,0,1780924508,"~/deployment.yml"
--'  7  25  ~/dockerfile
-|4,39,7,25,1780923169,"~/dockerfile"
--'  7  25  ~/dockerfile
-|4,39,7,25,1780923169,"~/dockerfile"
--'  7  25  ~/dockerfile
-|4,39,7,25,1780923169,"~/dockerfile"
--'  7  25  ~/dockerfile
-|4,39,7,25,1780923169,"~/dockerfile"
--'  7  25  ~/dockerfile
-|4,39,7,25,1780921914,"~/dockerfile"
--'  7  25  ~/dockerfile
-|4,39,7,25,1780921914,"~/dockerfile"
--'  7  25  ~/dockerfile
-|4,39,7,25,1780921914,"~/dockerfile"
--'  7  25  ~/dockerfile
-|4,39,7,25,1780921914,"~/dockerfile"
--'  1  0  ~/dockerfile
-|4,39,1,0,1780921896,"~/dockerfile"
--'  1  0  ~/dockerfile
-|4,39,1,0,1780921896,"~/dockerfile"
--'  1  0  ~/dockerfile
-|4,39,1,0,1780921896,"~/dockerfile"
--'  1  0  ~/dockerfile
-|4,39,1,0,1780921896,"~/dockerfile"
--'  1  0  ~/dockerfile
-|4,39,1,0,1780921896,"~/dockerfile"
--'  1  0  ~/dockerfile
-|4,39,1,0,1780921896,"~/dockerfile"
--'  1  0  ~/dockerfile
-|4,39,1,0,1780921896,"~/dockerfile"
--'  1  0  ~/dockerfile
-|4,39,1,0,1780921896,"~/dockerfile"
--'  1  0  ~/hello.py
-|4,39,1,0,1780921741,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1780921741,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1780921741,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1780921741,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1780921741,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1780921741,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1780921741,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1780921741,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1780921741,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1780921741,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1780921741,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1780921741,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1780921741,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1780921741,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1780921741,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1780921741,"~/hello.py"
--'  1  5  ~/hello.py
-|4,39,1,5,1780921703,"~/hello.py"
--'  1  5  ~/hello.py
-|4,39,1,5,1780921703,"~/hello.py"
--'  1  5  ~/hello.py
-|4,39,1,5,1780921703,"~/hello.py"
--'  1  5  ~/hello.py
-|4,39,1,5,1780921703,"~/hello.py"
--'  1  5  ~/hello.py
-|4,39,1,5,1780921703,"~/hello.py"
--'  1  5  ~/hello.py
-|4,39,1,5,1780921703,"~/hello.py"
--'  1  5  ~/hello.py
-|4,39,1,5,1780921703,"~/hello.py"
--'  1  5  ~/hello.py
-|4,39,1,5,1780921703,"~/hello.py"
--'  1  5  ~/hello.py
-|4,39,1,5,1780921703,"~/hello.py"
--'  1  5  ~/hello.py
-|4,39,1,5,1780921703,"~/hello.py"
--'  1  5  ~/hello.py
-|4,39,1,5,1780921703,"~/hello.py"
--'  1  5  ~/hello.py
-|4,39,1,5,1780921703,"~/hello.py"
--'  1  5  ~/hello.py
-|4,39,1,5,1780921703,"~/hello.py"
--'  1  5  ~/hello.py
-|4,39,1,5,1780921703,"~/hello.py"
--'  1  5  ~/hello.py
-|4,39,1,5,1780921703,"~/hello.py"
--'  1  5  ~/hello.py
-|4,39,1,5,1780921703,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  5  0  ~/hello.py
-|4,39,5,0,1780921668,"~/hello.py"
--'  3  0  ~/hello.py
-|4,39,3,0,1780921580,"~/hello.py"
--'  3  0  ~/hello.py
-|4,39,3,0,1780921580,"~/hello.py"
--'  3  0  ~/hello.py
-|4,39,3,0,1780921580,"~/hello.py"
--'  3  0  ~/hello.py
-|4,39,3,0,1780921580,"~/hello.py"
--'  3  0  ~/hello.py
-|4,39,3,0,1780921580,"~/hello.py"
--'  3  0  ~/hello.py
-|4,39,3,0,1780921580,"~/hello.py"
--'  3  0  ~/hello.py
-|4,39,3,0,1780921580,"~/hello.py"
--'  3  0  ~/hello.py
-|4,39,3,0,1780921580,"~/hello.py"
--'  3  0  ~/hello.py
-|4,39,3,0,1780921580,"~/hello.py"
--'  3  0  ~/hello.py
-|4,39,3,0,1780921580,"~/hello.py"
--'  3  0  ~/hello.py
-|4,39,3,0,1780921580,"~/hello.py"
--'  3  0  ~/hello.py
-|4,39,3,0,1780921580,"~/hello.py"
--'  3  0  ~/hello.py
-|4,39,3,0,1780921580,"~/hello.py"
--'  3  0  ~/hello.py
-|4,39,3,0,1780921580,"~/hello.py"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
+-'  22  46  ~/deployment.yml
+|4,39,22,46,1780924530,"~/deployment.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/k8deployment.yaml
+	*	1781093652	0
+	"	21	32
+	^	21	33
+	.	21	32
+	+	21	32
+
+> ~/dockerfile
+	*	1781091298	0
+	"	7	23
+	^	7	24
+	.	7	23
+	+	13	25
+	+	7	23
+
+> /home
+	*	1781091150	0
+	"	7	0
+	.	10	0
+	+	19	0
+	+	10	0
+
+> ~/Dockerfile
+	*	1781091119	0
+	"	8	0
+	.	9	0
+	+	9	0
+
+> ~/app.py
+	*	1781090777	0
+	"	1	19
+	^	1	20
+	.	1	19
+	+	1	19
 
 > ~/.github/workflows/cicd.yml
 	*	1780936751	0
@@ -271,13 +316,6 @@
 	^	22	47
 	.	22	46
 	+	22	46
-
-> ~/dockerfile
-	*	1780923167	0
-	"	7	25
-	^	7	26
-	.	7	25
-	+	7	25
 
 > ~/hello.py
 	*	1780921739	0
